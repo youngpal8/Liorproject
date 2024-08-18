@@ -64,11 +64,11 @@ document.querySelector('.flip-card').addEventListener('click', function() {
 });
 
 
-// Get all boxes and image
+
 const boxes = document.querySelectorAll('.box');
 const image = document.querySelector('.image img');
 
-// Add hover effect for boxes
+
 boxes.forEach((box, index) => {
     box.addEventListener('mouseover', () => {
         box.style.transform = `scale(${1.05 + index * 0.01}) rotate(${index % 2 === 0 ? '-2' : '2'}deg)`;

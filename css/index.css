@@ -44,7 +44,7 @@ background-color: #333;
 color: #fff;
 padding: 15px 0;
 width: 100%;
-margin-top: -30px;
+margin-top: -50px;
 display: flex;
 position: relative;
 }
@@ -375,12 +375,46 @@ transform: scale(1.12);
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
+
+  .sub-service {
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    padding: 50px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-left: -155px;
+}
+
+.sub-service:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+.sub-service h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.sub-service p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2em;
+    color: #666;
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+
   
   .flip-card {
     background-color: transparent;
-    width: 650px; /* Adjusted width to match image */
-    height: 400px; /* Adjusted height for a good flip effect */
-    perspective: 1000px; /* Perspective for 3D effect */
+    width: 650px; 
+    height: 400px; 
+    perspective: 1000px; 
+    margin-left: 45px;
   }
   
   .flip-card-inner {
@@ -860,8 +894,11 @@ p {
 }
 
 .contact-us-image {
-    max-width: 420px;
-    margin-left: 10px;
+    max-width: 520px;
+    margin-left: 750px;
+    margin-top: 320px;
+    height: 1500px;
+    position: absolute;
 }
 
 #contact-us img {
@@ -881,6 +918,19 @@ p {
     align-items: flex-start;
     flex-wrap: wrap;
     text-align: left;
+    margin-top: 100px;
+}
+
+.logo-container {
+    flex-basis: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.footer-logo {
+    max-width: 200px;
+    width: 100%;
+    height: auto;
 }
 
 .quicklink-container, .foot-contact-container, .social-container {
